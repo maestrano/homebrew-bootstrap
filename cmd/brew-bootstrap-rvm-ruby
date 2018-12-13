@@ -25,4 +25,4 @@ gpg --keyserver hkp://fks.pgpkeys.eu --recv-keys 409B6B1796C275462A1703113804BB8
 gpg --verify rvm-installer.asc &&
 
 # Run the installer
-bash rvm-installer stable
+bash rvm-installer stable --with-gems="foreman nex_client"
